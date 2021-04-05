@@ -124,8 +124,8 @@ installbbrplus(){
 			if [[ ${bit} = "x86_64" ]]; then
 				kernel_version="4.14.129_bbrplus"
 				detele_kernel_head
-				headurl=https://github.com/cx9208/Linux-NetSpeed/raw/master/bbrplus/centos/7/kernel-headers-4.14.129-bbrplus.rpm
-				imgurl=https://github.com/cx9208/Linux-NetSpeed/raw/master/bbrplus/centos/7/kernel-4.14.129-bbrplus.rpm
+				headurl=https://linux-net-speed.s3.ap-east-1.amazonaws.com/bbrplus/centos/7/kernel-headers-4.14.129-bbrplus.rpm
+				imgurl=https://linux-net-speed.s3.ap-east-1.amazonaws.com/bbrplus/centos/7/kernel-4.14.129-bbrplus.rpm
 				echo -e "正在检查headers下载连接...."
 				checkurl $headurl
 				echo -e "正在检查内核下载连接...."
